@@ -15,7 +15,7 @@ module.exports = {
       summary: `非常努力地建立了这个小站`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `TODO`,
+    siteUrl: `https://google.com`,
     social: {
       twitter: `sirs05`,
     },
