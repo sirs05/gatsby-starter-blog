@@ -8,10 +8,12 @@ import Seo from "../components/seo"
 
 const AboutPage = () => {
   return (
-    <main>
-      <h1>About Me</h1>
-      <p>你好，这是测试施工页面</p>
-    </main>
+    <Layout location={location} title={siteTitle}>
+        <main>
+        <h1>About Me</h1>
+        <p>你好，这是测试施工页面</p>
+        </main>
+    </Layout>
   )
 }
 
