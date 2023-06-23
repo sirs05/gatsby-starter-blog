@@ -6,17 +6,14 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const AboutPage =  ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
-  const posts = data.allMarkdownRemark.nodes
+const AboutPage =  () => {
 
   return (
-    <Layout location={location} title={siteTitle}>
+
         <main>
         <h1>About Me</h1>
         <p>你好，这是测试施工页面</p>
         </main>
-    </Layout>
   )
 }
 
